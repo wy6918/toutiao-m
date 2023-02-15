@@ -6,6 +6,8 @@ import Vant from 'vant'
 import 'vant/lib/index.css'
 
 import './style/index.less'
+// 加载动态设置rem基准值
+import 'amfe-flexible'
 Vue.use(Vant)
 
 Vue.config.productionTip = false
