@@ -182,7 +182,7 @@ export default {
 
   .grid-nav {
     .grid-item {
-      height: 85px;
+      height: 70px;
       i.toutiao {
         font-size: 20px;
       }
@@ -193,7 +193,7 @@ export default {
         color: #ff9d1d;
       }
       span.text {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
   }
