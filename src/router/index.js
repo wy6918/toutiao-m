@@ -28,6 +28,21 @@ const routes = [
         component: () => import('@/views/my')
       }
     ]
+  },
+  {
+    path: '/search',
+    component: () => import('@/views/search')
+  },
+  {
+    path: '/article/:aticleId',
+    name: 'article',
+    component: () => import('@/views/article'),
+    props: true // 开启props传参
+  },
+  {
+    path: '/user',
+    name: 'user',
+    component: () => import('@/views/user')
   }
 ]
 

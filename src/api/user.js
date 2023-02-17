@@ -34,3 +34,22 @@ export const getUserChannels = () => {
     url: '/v1_0/user/channels'
   })
 }
+/**
+ * 获取当前登录用户的信息
+ */
+export const getUserProfile = () => {
+  return request({
+    method: 'GET',
+    url: '/v1_0/user/profile'
+  })
+}
+/**
+ * 编辑用户的信息
+ */
+export const UpdateUserInfo = (data) => {
+  return request({
+    method: 'PATCH',
+    url: '/v1_0/user/profile',
+    data
+  })
+}
